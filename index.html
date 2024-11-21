@@ -1,0 +1,156 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Inshiki Store</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <link rel="shortcut icon" href="img/pngegg.png" type="image/x-icon">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  </head>
+
+  <body>
+    <nav class="navbar col-12 position-fixed navbar-expand-lg navbar-dark bg-dark" style="z-index: 999;">
+        <div class="container-fluid col-11 m-auto" id="header">
+          <a class="navbar-brand" href="#">Inshiki Store</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#header">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#produtos">Produtos</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Contato
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Instagram</a></li>
+                  <li><a class="dropdown-item" href="#">Facebook</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Whatsapp</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled" aria-disabled="true"></a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Pesquisar</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+      
+      <div id="carouselExampleIndicators" class="carousel slide">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./img/high-angle-controllers-headphones.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="./img/gaming-setup-with-controller-headphones.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="./img/happy-young-man-after-his-victory-while-playing-video-games-wearing-virtual-reality-headset.jpg" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+      <div class="row row-cols-1 row-cols-md-2 g-4 col-11 m-auto" id="produtos">
+        <div class="col">
+          <div class="card">
+            <img src="./img/teclado.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Teclado Mecânico Inshiki Pro</h5>
+              <p class="card-text">Experimente a precisão e a durabilidade incomparáveis do Teclado Mecânico Inshiki Pro, projetado para entusiastas e profissionais que exigem o melhor. Com switches mecânicos de alta qualidade, cada tecla oferece um feedback táctil satisfatório e uma resposta rápida que melhora significativamente a experiência de digitação e jogo.</p>
+
+              <button type="button" class="btn btn-lg btn-dark" data-bs-toggle="popover" data-bs-title="Popover title" data-bs-content="And here's some amazing content. It's very engaging. Right?">Saiba mais</button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="./img/phone.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Headset Inshiki SonicWave</h5>
+              <p class="card-text">Eleve sua experiência auditiva com o Headset Inshiki SonicWave, projetado para proporcionar um som cristalino e conforto incomparável. Ideal para gamers, profissionais e entusiastas de música, este headset oferece uma combinação perfeita de qualidade de som e ergonomia.</p>
+
+              <button type="button" class="btn btn-lg btn-dark" data-bs-toggle="popover" data-bs-title="Popover title" data-bs-content="And here's some amazing content. It's very engaging. Right?">Saiba mais</button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="./img/cadeira-gamer.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Cadeira Gamer Inshiki Ultimate</h5>
+              <p class="card-text">Transforme sua experiência de jogo com a Cadeira Gamer Inshiki Ultimate, projetada para oferecer o máximo em conforto e suporte durante longas sessões de jogo. Com um design ergonômico e funcionalidades avançadas, esta cadeira é a escolha perfeita para gamers que procuram desempenho e estilo.</p>
+
+              <button type="button" class="btn btn-lg btn-dark" data-bs-toggle="popover" data-bs-title="Popover title" data-bs-content="And here's some amazing content. It's very engaging. Right?">Saiba mais</button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="./img/gamepad-male-hands-workplace-rest-time-without-work-top-view (1).jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Controle Xbox Inshiki X-Pro</h5>
+              <p class="card-text">Eleve sua experiência de jogo com o Controle Xbox Inshiki X-Pro, desenvolvido para proporcionar a máxima precisão e conforto. Com um design ergonômico e funcionalidades avançadas, este controle é a escolha ideal para gamers de todos os níveis.</p>
+
+              <button type="button" class="btn btn-lg btn-dark" data-bs-toggle="popover" data-bs-title="Popover title" data-bs-content="And here's some amazing content. It's very engaging. Right?">Saiba mais</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <hr>
+      <br>
+      <div class="col-11 m-auto">
+        <h2 class="text-center">Sobre nós</h2>
+        <p class="text-center">Na Inshiki Store, acreditamos que o futuro é agora. Nossa missão é trazer para você os produtos mais inovadores e revolucionários, que combinam tecnologia de ponta com design impecável. Desde gadgets futurísticos até invenções malucas, nossa loja é o lugar onde a imaginação ganha vida.</p>
+      </div>
+      <br>
+      <hr>
+
+      <div class="col-11 m-auto">
+        <h2 class="text-center">Contato</h2>
+        <div class="col-1 m-auto">
+          <a href="#">
+            <i class="fa-brands fa-whatsapp" style="font-size: 150px; color: green;"></i>
+          </a>
+      </div>
+      </div>
+      <br>
+    
+      <footer style="background-color:rgb(20, 20, 20);" class="page-footer font-small blue p-5"> 
+        <div class="text-center">
+          <p style="color: aliceblue;">© 2024 Copyright: Inshiki Store</p>
+        </div>
+      </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+  </body>
+</html>
